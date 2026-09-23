@@ -19,12 +19,6 @@ if num < 0:
 else:
     print(f"The factorial of {num} is {find_factorial(num)}")
 
-rows = int(input("Enter number of rows: "))
-for i in range(rows):
-    for j in range(i+1):
-        print(j+1, end=" ")
-    print()
-
 # Receive and convert user input into decimal numbers
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
@@ -34,15 +28,6 @@ result = num1 + num2
 
 # Display the sum
 print(f"The sum of {num1} and {num2} is: {result}")
-
-
-txt = input("Enter a string: ")
-if txt == txt[::-1]:
-    print("Palindrome")
-else:
-    print("Not a Palindrome")
-
-num = int(input("Enter an integer: "))
 
 # Check if the remainder is 0 when divided by 2
 if num % 2 == 0:
